@@ -1,25 +1,25 @@
 class Pcli2 < Formula
   desc "CLI client for the Physna public API - Advanced 3D Geometry Search and Analysis"
   homepage "https://jchultarsky101.github.io/pcli2/"
-  version "1.23.0"
+  version "1.23.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.0/pcli2-aarch64-apple-darwin.tar.xz"
-      sha256 "fe45cb171772536667f05dced8acb3c03bfae6d376851216c6b9b307d8351fd9"
+      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.1/pcli2-aarch64-apple-darwin.tar.xz"
+      sha256 "3c464ae87f9a38a0556d08e643d740cdaf23591e9cbb04ab02b9c9159a32b533"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.0/pcli2-x86_64-apple-darwin.tar.xz"
-      sha256 "d4e378ad921308f66fae5652a570b6fd36ff0c4d9633fc1685abfa2b1666ffb9"
+      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.1/pcli2-x86_64-apple-darwin.tar.xz"
+      sha256 "cd54c562c10a9fc4993d55b55e6295d95fe079279ac6e71abfa2b281668e6ba2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.0/pcli2-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f0823c1d729a39a5b254c6a36c0f7a5bb42207545734f6dcd093ce7aa1fc6a59"
+      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.1/pcli2-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "070872129e046dbdcbacad94a59370cede8b9482f1b6ff42d51a064b6ce8345d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.0/pcli2-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fdbd13ea43c45df238180c3c5b13400b7ea649b9fe224dd5cda6f07ffa16a6f0"
+      url "https://github.com/jchultarsky101/pcli2/releases/download/v1.23.1/pcli2-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c1aeb8a78fcf8d0cee79b68c5831f187782b9cfd21a2784f3767937fa3629632"
     end
   end
 
